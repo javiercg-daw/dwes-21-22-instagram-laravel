@@ -21,6 +21,9 @@ siguientes:
     2. composer create-project laravel/laravel .
     3. composer install
     4. chown -R www-data:www-data /var/www/html && chmod -R g+w /var/www/html
+    5. Modificar .env con los datos de acceso a la BD, reiniciar el contenedor
+    6. php artisan migrate
+    7. Seguir los pasos para instalar Laravel Breeze: https://laravel.com/docs/8.x/starter-kits
 
 - Configuramos laravel para acceder la base de datos
 - Diagrama ER de la BD:  
